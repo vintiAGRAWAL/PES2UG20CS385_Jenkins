@@ -7,7 +7,7 @@ pipeline {
                 echo "Build Successful"
             }
         }
-        stage('Test') {
+        stage('Test' {
             steps {
                 sh './PES2UG20CS385-1'
             }
